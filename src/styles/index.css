@@ -9,3 +9,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    margin-top: 100px;
+    height: 100vh;
+}
+
+ul li{
+
+    border: grey 1px solid;
+    border-radius: 5px;
+    height: 100px;
+    margin-bottom: 10px;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+input{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #ff6200;
+    font-family: monospace;
+    }
+
+
+li{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
